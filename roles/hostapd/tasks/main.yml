@@ -1,0 +1,7 @@
+---
+# tasks file for hostapd
+- name: Configure hostapd for RADIUS
+  template:
+    src: hostapd.conf.j2
+    dest: /etc/hostapd.conf
+  notify: apply changes
