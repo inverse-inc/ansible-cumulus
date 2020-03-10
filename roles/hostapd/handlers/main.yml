@@ -1,2 +1,11 @@
 ---
 # handlers file for hostapd
+- name: net pending
+  command: net pending
+  become: True
+  listen: apply changes
+
+- name: net commit
+  command: net commit
+  become: True
+  listen: apply changes  
