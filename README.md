@@ -1,3 +1,3 @@
 # Ansible Collection - inverse_inc.cumulus
 
-Documentation for the collection.
+Collection to manage softwares running on Cumulus Linux.
