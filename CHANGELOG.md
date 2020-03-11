@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2020-03-11
+## [1.0.1] - 2020-03-11
 
 ### Added
 - First role of collection: `hostapd`
 
-[Unreleased]: https://github.com/inverse-inc/ansible-windows/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/inverse-inc/ansible-windows/releases/tag/v1.0.0
+[Unreleased]: https://github.com/inverse-inc/ansible-cumulus/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/inverse-inc/ansible-cumulus/releases/tag/v1.0.1
