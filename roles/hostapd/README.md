@@ -21,3 +21,6 @@ See [defaults variables](defaults/main.yml)
   roles:
   - hostapd
 ```
+
+If you use all defaults, `hostapd` will not start because you need to
+configure at least one interface.
