@@ -26,3 +26,7 @@ hostapd__radius_das_client: ''
 hostapd__radius_das_time_window: '300'
 hostapd__radius_das_require_event_timestamp: '1'
 hostapd__radius_das_require_message_authenticator: '1'
+
+# hostapd service
+hostapd__state: started
+hostapd__enabled: True

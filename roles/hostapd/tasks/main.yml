@@ -5,3 +5,9 @@
     src: hostapd.conf.j2
     dest: /etc/hostapd.conf
   notify: apply changes
+
+- name: Start and enable hostapd service
+  service:
+    name: hostapd
+    state: "{{ hostapd__state }}"
+    enabled: "{{ hostapd__enabled }}"
