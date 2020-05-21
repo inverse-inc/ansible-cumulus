@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Role `restserver` to enable HTTP API service
 
+### Changed
+- Ensure `hostapd` daemon is started
+
 ## [1.0.1] - 2020-03-11
 
 ### Added

@@ -22,5 +22,4 @@ See [defaults variables](defaults/main.yml)
   - hostapd
 ```
 
-If you use all defaults, `hostapd` will not start because you need to
-configure at least one interface.
+`hostapd` is started at end of playbook.
